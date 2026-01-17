@@ -6,7 +6,7 @@ n8n on Android
 2. [Setup SSH on Termux](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#setup-ssh-on-termux)
 3. [Lets start Building N8N](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#lets-start-building-n8n)
 4. [Running n8n Directly](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#running-n8n-directly)
-5. 
+5. Need to Add Certification and Port Forwarding for Domain
 
 
 ### First Install Termux on Android
