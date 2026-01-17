@@ -3,7 +3,10 @@ n8n on Android
 
 ### Contents
 1. [Termux on Android](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#first-install-termux-on-android)
-2. 
+2. [Setup SSH on Termux](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#setup-ssh-on-termux)
+3. [Lets start Building N8N](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#lets-start-building-n8n)
+4. [Running n8n Directly](https://github.com/bharathajjarapu/n8n4A/edit/main/README.md#running-n8n-directly)
+5. 
 
 
 ### First Install Termux on Android
@@ -73,7 +76,7 @@ Then Run it
 ssh -p 8022 u0_a123@192.168.1.5
 ```
 
-### Lets start Building Termux
+### Lets start Building N8N
 
 #### Firstly Update Termux packages and add root repository
 ```
@@ -114,8 +117,6 @@ npm install n8n -g --sqlite=/data/data/com.termux/files/usr/bin/sqlite3
 npm install pm2 -g
 ```
 
----
-
 ### Running n8n Directly
 
 #### Start n8n without Tunnel (webhooks on local network only)
@@ -137,24 +138,3 @@ pm2 save
 ```
 pm2 status
 ```
-
-### Network Setup
-
-#### Install net-tools to check Termux IP
-```
-pkg install net-tools
-```
-
-#### Display network interfaces and IP address
-```
-ifconfig
-```
-
-#### Access n8n in your browser
-```
-http://IP:5678
-```
-
-Replace `$IP` with the IP address from `ifconfig`.
-
-### 
